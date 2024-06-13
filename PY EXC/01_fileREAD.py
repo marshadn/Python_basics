@@ -1,0 +1,17 @@
+# f=open("this.txt","r")
+# text=f.read()
+# print(text)
+
+f=open("this.txt","r")
+#text=f.read(8)
+print()
+# text=f.readline() 
+# print(text)
+# text=f.readline() 
+# print(text)
+# text=f.readline() 
+# print(text)
+
+text=f.readlines()
+print(text)
+f.close()

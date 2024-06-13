@@ -1,0 +1,5 @@
+f=open("write.txt", "w")
+f=open("write.txt", "a")
+f.write("Hi I'm Testing This ..I think Its Worked Properly\n")
+f.write("Hi I'm appending this line to file agaian ")
+f.close()
